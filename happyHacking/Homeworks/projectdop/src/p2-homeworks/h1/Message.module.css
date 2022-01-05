@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(149, 194, 209);
+}
+
+
+.messag {
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+.avatar {
+  flex-direction: row;
+  justify-content: start;
+
+
+
+}
+
+.avatar img {
+
+  width: 50px;
+  border-radius: 50px;
+  margin-top: 75px;
+ 
+}
+
+.bubblein h5 {
+  color: azure;
+  margin-left: 20px;
+  margin-top: auto;
+}
+
+.bubblein .time {
+  text-align: right;
+  margin-right: 10px;
+   margin-left: 180px;
+  font-size: 10px;
+  color: azure;
+
+}
+
+.bubblein p {
+  text-align: center;
+  margin-right: 80px;
+  margin-top:5px;
+  color: rgb(235, 131, 105);
+}
+
+
+
+
+
+.bubblein {
+  height: auto;
+  width: auto;
+  background: rgb(43, 64, 52);
+  border-radius: 18px;
+  position: relative;
+  margin: 20px;
+
+
+}
+
+.bubblein:before {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 20px;
+  background: rgb(43, 64, 52);
+  bottom: 10px;
+  left: -5px;
+  transform-origin: center center;
+  transform: rotate(40deg);
+}
